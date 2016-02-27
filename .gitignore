@@ -1,2 +1,9 @@
-#data/*
-#resource/*
+data/rec_log_train.txt
+resource/item.txt
+resource/rec_log_train.txt
+resource/rec_log_test.txt
+resource/user_action.txt
+resource/user_key_word.txt
+resource/user_profile.txt
+resource/user_sns.txt
+
