@@ -1,4 +1,5 @@
 import random
+#this method read the file, and return a two dimension array
 def readMatrix(filename):
     txt=open(filename,'rw+')
     line=txt.readline()
@@ -13,6 +14,7 @@ def readMatrix(filename):
     return matrix
 
 
+#this method get the traning and testing dataset from 'rec_log_train.txt'
 def readTrain_Test(filename):
     txt=open(filename,'rw+')
     line=txt.readline()
