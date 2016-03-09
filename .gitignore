@@ -6,4 +6,6 @@ resource/user_action.txt
 resource/user_key_word.txt
 resource/user_profile.txt
 resource/user_sns.txt
+.idea/*
+data/*
 
