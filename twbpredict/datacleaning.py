@@ -9,14 +9,14 @@ user_profile_file="../resource/user_profile.txt"
 
 item_matrix=file_operation.readMatrix(item_file)
 #test_file=file_operation.readMatrix(test_file)
-[train,test]=file_operation.readTrain_Test(train_file)
-filename="../resource/rec_log_train.txt"
-txt=open(filename,'rw+')
+#[train,test]=file_operation.readTrain_Test(train_file)
+#filename="../resource/rec_log_train.txt"
+txt=open(user_profile_file,'rw+')
 line=txt.readline()
 count=0
 while len(line)>0:
     attrs=line.split('\t')
-    if(len(attrs)!=4):
+    if(attrs[1]=='0-0-'):
         count=count+1
     line=txt.readline()
 print count
